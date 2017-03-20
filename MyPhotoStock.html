@@ -1,0 +1,48 @@
+<!doctype html> 
+<html>
+    <head>
+        <title>My Photo Stock</title>
+        <meta name="viewport" content="width=device-width"/>  
+        <meta charset="utf-8"/> 
+<!--     This is the source file for CSS stylesheet for this webpage-->
+        <link rel="stylesheet" href="MyPhotoStock.css">
+        
+    </head>
+    <body>
+<!--    This div is the header of webpage. It contains the header for webpage-->
+        <div id="header">
+        <h1 id="myHeader">My Photo Stock</h1>
+        </div>
+<!--    This is the main div. It holds the user and the dropdown menu for image array-->
+        <div id="main"></div>
+        <hr/>
+<!--    <div id="choices">-->
+            <select id="categories">
+                <option>abstract</option>
+                <option selected="selected">animals</option>
+                <option>city</option>
+                <option>flowers</option>
+                <option>miscellaneous</option>
+                <option>nature</option>
+                <option>people</option>
+            </select>
+
+<!--    </div>-->
+        <hr/>
+<!--    The output div holds the image array in webpage-->
+        <div id="output"></div>
+        <hr/>
+<!--    This div holds the selected images from the data array and keeps them in localstorage-->
+        <div id="selected"></div>
+        <hr/>
+<!--    This button moves to the selected images page-->
+        <div id="button"></div>
+<!--    This is the footer of the webpage-->
+        <div id="footer"> © myStockPhotos </div>
+    </body>
+<!--    These are the source files for jQuery and javascript file for this webpage  -->
+    <script src="libs/jquery-3.1.1.js"></script>
+    <script src="MyPhotoStock.js"></script>
+
+
+</html>
